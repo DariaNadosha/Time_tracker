@@ -1,0 +1,20 @@
+{
+  "debug": false,
+  "site_name": "Time Tracker",
+  "menu": [
+    {
+      "title": "Demos",
+      "href": "index"
+    }, {
+      "title": "Features",
+      "href": "index"
+    }, {
+      "title": "Pricing",
+      "href": "index"
+    },
+    {
+      "title": "Contact",
+      "href": "index"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+@use "../mixins/layout.scss" as *;
+
+.heading {
+  background: #FFF8F2;
+}
+.heading__wrapper {
+  justify-content: center;
+  text-align: center;
+  background-image: url("../img/decorations/desktop/vector-desktop-heading-left.svg"),
+  url("../img/decorations/desktop/vector-desktop-heading-left-bottom.svg"),
+  url("../img/decorations/desktop/vector-desktop-heading-right.svg"),
+  url("../img/decorations/desktop/vector-desktop-heading-right-bottom.svg"),;
+  background-repeat: no-repeat;
+  background-position:
+    50% 50%,
+    50% 50%,
+    50% 50%,
+    50% 50%
+}
+.heading__header {
+  font-size: 64px;
+  color: #1C0E0D;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  padding-top: 100px;
+}
+.heading__subheader {
+  font-size: 20px;
+  color: #1C0E0D;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 595px;
+}
+.heading__button {
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+

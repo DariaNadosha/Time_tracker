@@ -1,0 +1,21 @@
+@use "../mixins/layout.scss" as *;
+
+.button {
+  // width: 133px;
+  padding: 1.3em 2em;
+  background-color: #FF553E;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 40px;
+  justify-content: center;
+  border: 1px solid #FF553E;
+  // transition: background-color 0.3s ease;
+
+  &:hover {
+    color: #FF553E;
+    border: 1px solid #FF553E;
+    background-color: transparent;
+  }
+}

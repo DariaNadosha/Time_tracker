@@ -1,0 +1,15 @@
+.nav a {
+  color: #1C0E0D; //var(--color-primary)
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 35px;
+
+  &:hover { color: var(--color-hover); }
+  &:active { color: #1C0E0D; } //var(--color-active)
+  &.active { color: #1C0E0D; }
+}
+
+.nav {
+  width: 421px;
+  justify-content: space-between;
+}
